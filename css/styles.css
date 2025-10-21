@@ -238,16 +238,15 @@ font-family: "Raleway", sans-serif;
     overflow: hidden;
 }
 .features-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 border: 1px solid var(--light-slate);
     border-radius: 4px;
-    width: 264px;
+    max-width: 264px;
     height: 112px;
     background: var(--cloud);
     margin-bottom: 8px;
-}
-.features-icon {
-    display: block;
-    max-width: 100%;
 }
 .features-header {
     font-family: "Roboto", sans-serif;
