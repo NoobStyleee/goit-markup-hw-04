@@ -83,7 +83,7 @@ font-family: "Raleway", sans-serif;
         /* line-height: 24px; */
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color: #404bbf;
         text-decoration: none;
         display: block;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -457,7 +457,8 @@ font-family: "Roboto", sans-serif;
 }
 .our-portfolio-img-box {
 position: relative;
-    overflow: hidden;    
+    overflow: hidden;  
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-box:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
